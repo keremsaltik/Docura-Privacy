@@ -1,6 +1,11 @@
 # Docura - Privacy Policy & Architecture
 *Docura is a privacy-first app. We do not collect, store, or transmit your documents.*
 
+## For Help
+
+*Contact & Support: If you need any help or have feedback, please reach out to me at [keremsaltikbusiness@gmail.com]*
+
+
 ## System Architecture (How we protect your data)
 
 ```mermaid
@@ -72,3 +77,5 @@ graph TD
     class E,F,G1,G2,G3,G4,G5,H ai;
     class I,J security;
     class K db;
+
+
