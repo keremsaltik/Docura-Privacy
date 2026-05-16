@@ -1,3 +1,8 @@
+# Docura - Privacy Policy & Architecture
+*Docura is a privacy-first app. We do not collect, store, or transmit your documents.*
+
+## System Architecture (How we protect your data)
+
 ```mermaid
 graph TD
     %% Input Katmanı
