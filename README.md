@@ -1,4 +1,4 @@
-# 🛡️ Docura - Smart AI Archive
+# 🛡️ Docura - Smart Archive
 
 ![Platform](https://img.shields.io/badge/Platform-iOS%2017.0+-blue.svg)
 ![Swift](https://img.shields.io/badge/Swift-6.0-orange.svg)
