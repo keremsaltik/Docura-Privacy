@@ -6,7 +6,7 @@
 
 **Docura** is a privacy-first, offline smart document organizer and vault. It leverages on-device AI to scan, read, auto-categorize, and secure your highly sensitive documents without ever connecting to a third-party server.
 
-📲 **[Download Docura on the App Store](#)** *[https://apps.apple.com/tr/app/docura-smart-archive/id6765619893]*
+📲 **Download Docura on the App Store** *[https://apps.apple.com/tr/app/docura-smart-archive/id6765619893]*
 
 ---
 
