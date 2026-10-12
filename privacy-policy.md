@@ -1,38 +1,48 @@
 # Privacy Policy for Docura - Smart Archive
 
-**Last updated: May 1, 2026**
+**Last updated: October 12, 2026**
 
 ## Overview
 
-Docura - Smart Archive ("we", "our", or "the app") is a local-first document scanner and organizer. We are committed to protecting your privacy. This Privacy Policy explains how we handle your information.
+Docura - Smart Archive ("we", "our", or "the app") is a privacy-first, local-first document scanner and vault for iOS and macOS. We are deeply committed to protecting your personal data. This Privacy Policy outlines how your information is handled within the app.
 
-## Data Collection
+## Data Collection and Zero-Knowledge Architecture
 
-Docura does not collect, transmit, or share any personal data. All information you enter or scan within the app remains exclusively on your device.
+Docura does not collect, track, or share any personal data. All documents, images, scanned text, and metadata you import or create remain exclusively under your control. We do not have access to your documents, contents, or encryption keys at any time.
 
-## Data Storage
+## Data Storage and Local Encryption
 
-All documents, scanned images, and extracted text are stored locally on your device. Files are encrypted using AES-256 encryption via Apple's CryptoKit framework. We have no access to your data at any time.
+All documents, scanned images, and extracted text are stored locally on your device. Files are encrypted on-device using industry-standard AES-256 encryption via Apple's CryptoKit framework. Master encryption keys are stored securely in your device's Keychain.
 
-## Third-Party Services
+## iCloud and CloudKit Synchronization
 
-Docura does not use any third-party analytics, advertising, or tracking services. We do not share your data with any third parties.
+Docura offers optional multi-device synchronization powered by Apple's CloudKit framework:
 
-## Camera and Photo Library Access
-
-Docura requests access to your device's camera solely for the purpose of scanning documents. This data is processed entirely on your device and is never transmitted externally.
+- **Apple Infrastructure:** Synchronization operates exclusively through your personal Apple iCloud account and Apple's CloudKit servers.
+- **Zero Third-Party Cloud:** We do not own, operate, or use any third-party servers or databases.
+- **Encrypted in Transit and at Rest:** Files synchronized via iCloud remain encrypted with your local AES-256 keys. We cannot decrypt, read, or access your synced documents.
+- **User Control:** iCloud synchronization is optional and can be enabled or disabled in the app settings at any time.
 
 ## On-Device AI and OCR
 
-Document classification and text extraction (OCR) are performed entirely on your device using Apple's Vision framework and on-device machine learning models. No data is sent to external servers for processing.
+Document classification and text extraction (OCR) are performed entirely on your device using Apple's Vision framework and on-device Core ML machine learning models. Your document text, metadata, and mathematical embeddings never leave your device and are never sent to external servers or third-party AI APIs.
 
-## iCloud
+## Device Permissions
 
-Docura does not currently use iCloud or any cloud storage service. Your data remains on your local device only.
+- **Camera:** Requested solely for scanning physical documents. Camera data is processed in real time locally and is never transmitted externally.
+- **Face ID / Touch ID:** Used strictly for local biometric authentication to protect document-level access. Biometric verification is handled entirely by Apple's Secure Enclave; Docura never accesses or stores your biometric data.
+
+## In-App Purchases and Subscriptions
+
+In-app purchases and subscriptions (such as Docura Pro) are processed securely by Apple via the App Store (StoreKit). Docura does not collect, process, or store your payment details or credit card information.
+
+## Third-Party Services and Analytics
+
+Docura does not use any third-party analytics, advertising, tracking SDKs, or data brokers. We do not share your data with any third parties.
 
 ## Children's Privacy
 
-Docura does not knowingly collect any information from children under the age of 13.
+Docura does not collect or solicit any personal information from children under the age of 13.
 
 ## Changes to This Policy
 
